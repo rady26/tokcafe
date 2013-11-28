@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* To POP UP */
+#backgroundPopup, #backgroundPopup_02 { 
+	z-index:1;
+	position: fixed;
+	display:none;
+	height:100%;
+	width:100%;
+	background:#000000;	
+	top:0px;  
+	left:0px;
+}
+#toPopup, #toPopup_02 {
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    background: none repeat scroll 0 0 #FFFFFF;
+/*     border: 10px solid #ccc;
+    border-radius: 3px 3px 3px 3px; */
+    color: #333333;
+    display: none;
+	font-size: 14px;
+    left: 50%;
+    margin-left: -402px;
+    position: fixed;
+    top: 5%;
+    width: 800px;
+    z-index: 2;
+}
+div.loader {
+    background: url("../../img/common/loading.gif") no-repeat scroll 0 0 transparent;
+    height: 32px;
+    width: 32px;
+	display: none;
+	z-index: 9999;
+	top: 40%;
+	left: 50%;
+	position: absolute;
+	margin-left: -10px;
+}
+/* div.close {
+    background: url("../img/closebox.png") no-repeat scroll 0 0 transparent;
+    bottom: 24px;
+    cursor: pointer;
+    float: right;
+    height: 30px;
+    left: 27px;
+    position: relative;
+    width: 30px;
+} */
+span.ecs_tooltip {
+    background: none repeat scroll 0 0 #000000;
+    border-radius: 2px 2px 2px 2px;
+    color: #FFFFFF;
+    display: none;
+    font-size: 11px;
+    height: 16px;
+    opacity: 0.7;
+    padding: 4px 3px 2px 5px;
+    position: absolute;
+    right: -62px;
+    text-align: center;
+    top: -51px;
+    width: 93px;
+}
+span.arrow {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid #000000;
+    display: block;
+    height: 1px;
+    left: 40px;
+    position: relative;
+    top: 3px;
+    width: 1px;
+}
+div#popup_content, div#popup_content_02 {
+    margin: 4px 7px;
+}
+#popup_content, #popup_content_02  {
+	max-width: 900px;
+	width: 100%;
+	margin: 0 auto;
+}
+#popup_content .popup_title, #popup_content_02 .popup_title {
+	font-size: 24px;
+	color: #424242;
+	text-align: center;
+	padding: 40px 0;
+	font-family: "Roboto";
+}
+#popup_content .logArea, #popup_content_02 .logArea {
+	width: 100%;
+	height: auto;
+	background: url("../../img/common/bg/img_or.png") no-repeat top center;
+	padding-bottom: 130px;
+}
+#popup_content .logArea .sansLog, #popup_content_02 .logArea .sansLog {
+	width: 50%;
+	height: auto;
+	float: left;
+	text-align: center;
+}
+#popup_content .logArea .mailLog, #popup_content_02 .logArea .mailLog {
+	width: 50%;
+	height: auto;
+	float: right;
+	text-align: center;
+}
+#popup_content .logArea .sansLog .login_title, #popup_content .logArea .mailLog .login_title, #popup_content_02 .logArea .sansLog .login_title, #popup_content_02 .logArea .mailLog .login_title {
+	font-size: 18px;
+	color: #424242;
+	padding: 20px 0;
+	font-family: "Roboto";
+}
+#popup_content .logArea .sansLog .login_control, #popup_content_02 .logArea .sansLog .login_control { padding-bottom: 20px; }
+#popup_content .logArea .sansLog .login_notice, #popup_content_02 .logArea .sansLog .login_notice {
+	font-size: 10px;
+	color: #424242;
+	font-family: "Roboto";
+	text-align: left;
+	padding: 20px 0 0 20px;
+}
+#popup_content .logArea .sansLog .notice_last, #popup_content_02 .logArea .sansLog .notice_last { padding-top: 5px; }
+#popup_content .logArea .sansLog .login_notice span, #popup_content_02 .logArea .sansLog .login_notice span { color: #ef3c85; }
+
+#popup_content .logArea .mailLog .signup, #popup_content_02 .logArea .mailLog .signup {
+	text-align: left;
+	color: #424242;
+	font-family: "Roboto";
+	padding-left: 65px;
+}
+#popup_content .logArea .mailLog .signup .signup-control, #popup_content_02 .logArea .mailLog .signup .signup-control { padding: 15px 0 0 10px; }
+#popup_content .logArea .mailLog .signup .signup-control-first, #popup_content_02 .logArea .mailLog .signup .signup-control-first { padding-top: 0; }
+#popup_content .logArea .mailLog .signup .signup-control .form_title, #popup_content_02 .logArea .mailLog .signup .signup-control .form_title {
+	font-size: 14px;
+	text-align: left;
+}
+#popup_content .logArea .mailLog .signup .signup-control .textbox, #popup_content_02 .logArea .mailLog .signup .signup-control .textbox {
+	background: #e6e6e6;
+	max-width: 287px;
+	width: 100%;
+	height: 28px;
+	line-height: 28px;
+	padding-left: 3px;
+	border: none;
+}
+#popup_content .logArea .mailLog .check_box, #popup_content_02 .logArea .mailLog .check_box { 
+	padding: 40px 0 0 65px;
+}
+#popup_content .logArea .mailLog .check_box .check_text, #popup_content_02 .logArea .mailLog .check_box .check_text { 
+	font-size: 13px; 
+	text-align: left;
+	padding-left: 5px;
+	float: left;
+}
+#popup_content .logArea .mailLog .check_box .check, #popup_content_02 .logArea .mailLog .check_box .check {
+	float: left;
+	width: 15px;
+	height: 15px;
+	position: relative;
+	top: 2px;
+}
+#popup_content .logArea .mailLog .check_box .check_text span, #popup_content_02 .logArea .mailLog .check_box .check_text span { color: #bf2857; }
+#popup_content .logArea .singup_controller, #popup_content_02 .logArea .singup_controller {
+	padding-top: 5px;
+	width: 100%;
+	float: left;
+	text-align: center;
+}

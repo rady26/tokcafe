@@ -1,0 +1,256 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* Main Image
+-------------------------------------------------- */
+#banner { 
+	width: 100%;
+	height: 450px;
+	margin: 0 auto;
+	background: url("../img/banner.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	float: left;
+}
+#banner .control {
+	max-width: 980px;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 70px;
+}
+#banner .control .controlIn {
+	width: 45%;
+	margin-left: 35px;
+	float: left;
+}
+#banner .control .controlIn p {
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	line-height: 23px;
+}
+#banner .control .controlIn p:first-child { 
+	font-size: 24px;
+	line-height: 34px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+#banner .control .controlIn p.warning { font-size: 11px; }
+#banner .control .controlIn p.warning span { color: #bf2857; }
+
+#banner .control .controlIn .signing {
+	margin-top: 20px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+#banner .control .controlIn .signing a { 
+	display: block;
+	height: auto;
+	margin-top: 20px;
+	text-decoration: none;
+}
+#banner .control .controlIn .signing a img { width: 70.74%; }
+#banner .platform {
+	width: 48%;
+	float: right;
+	position: relative;
+	top: 90px;
+}
+#banner .platform img { 
+	display: block; 
+	width: 100%;
+}
+
+/* Contents
+-------------------------------------------------- */
+.grid_01  { 
+	font-family: Roboto; 
+}
+.grid_01 .title {
+	font-size: 32px;
+	color: #0b739f;
+	padding-top: 80px;
+}
+.grid_01 .sub-title {
+	font-size: 18px;
+	line-height: 24px;
+	color: #424242;
+	padding-top: 20px;
+}
+.grid_01 .desc {
+	font-size: 13px;
+	line-height: 24px;
+	color: #424242;
+	padding-top: 30px;
+}
+.grid_01 .activities {
+	width: 100%;
+	float: left;
+	padding: 60px 0 45px;
+}
+.grid_01 .activities div {
+	float: left;
+	margin-left: 8.87%;
+}
+.grid_01 .activities .step1 {
+	width: 14.74%;
+	margin-left: 0;
+}
+.grid_01 .activities .step1 img { width: 91.03%; }
+.grid_01 .activities .step2 { width: 20.91%; }
+.grid_01 .activities .step2 img { width: 90.24%; }
+.grid_01 .activities .step3 { width: 23.97%; }
+.grid_01 .activities .step3 img { width: 100%; }
+.grid_01 .activities .step4 { width: 13.67%; }
+.grid_01 .activities .step4 img { width: 100%; }
+.grid_01 .activities div .step {
+	font-size: 18px;
+	color: #0b739f;
+	text-align: center;
+	font-weight: bold;
+}
+.grid_01 .activities div .step .step-number { font-size: 24px; }
+.grid_01 .activities div .step_title {
+	font-size: 23px;
+	font-weight: bold;
+	color: #323232;
+	text-align: center;
+	padding: 10px 0 25px;
+}
+.grid_01 .activities div img { display: block; }
+.grid_01 .activities div .step_desc {
+	font-size: 14px;
+	line-height: 22px;
+	color: #424242;
+	text-align: center;
+}
+
+/* Content02
+-------------------------------------------------- */
+.grid_02  { 
+	width: 100%;
+	padding: 40px 0 26px;
+	background: url("../img/bg_content02.png") repeat-x top left;
+	font-family: "Roboto";
+	color: #fff;
+}
+.grid_02 .gridIn {
+	max-width: 980px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/* line 01 */
+.grid_02 .gridIn .line_01 {
+	width: 100%;
+	height: 330px;
+}
+.grid_02 .gridIn .line_01 .title_01 {
+	font-size: 24px;
+	text-align: center;
+}
+.grid_02 .gridIn .line_01 .utilize {
+	width: 100%;
+	float: left;
+	padding-top: 50px;
+}
+.grid_02 .gridIn .line_01 .utilize div {
+	width: 33.26%;
+	float: left;
+	text-align: center;
+}
+	.grid_02 .gridIn .line_01 .utilize .utilize-02 { width: 33.46%; }
+.grid_02 .gridIn .line_01 .utilize div img { padding: 25px 0; }
+.grid_02 .gridIn .line_01 .utilize div p {
+	text-align: center;
+	font-size: 18px;
+}
+
+/* line 02 */
+.grid_02 .gridIn .line_02 {
+	width: 100%;
+	padding: 50px 0 60px;
+}
+.grid_02 .gridIn .line_02 .title_02 {
+	font-size: 24px;
+	text-align: center;
+}
+.grid_02 .gridIn .line_02 .current {
+	font-size: 18px;
+	text-align: center;
+	padding: 20px 0 20px;
+}
+.grid_02 .gridIn .line_02 .logos {
+	width: 100%;
+	float: left;
+}
+.grid_02 .gridIn .line_02 .logos .list {
+	width: 100%;
+	list-style: none;
+	float: left;
+}
+.grid_02 .gridIn .line_02 .logos .list li {
+	float: left;
+	width: 23.46%;
+	margin: 2.04% 2.04% 0 0;
+}
+.grid_02 .gridIn .line_02 .logos .list .no-margin { margin-right: 0; }
+.grid_02 .gridIn .line_02 .logos .list li a { text-decoration: none; }
+.grid_02 .gridIn .line_02 .logos .list li a img { 
+	display: block; 
+	width: 100%;
+}
+
+.grid_02 .gridIn .social {
+	width: 100%;
+	color: #323232;
+}
+.grid_02 .gridIn .social .blog {
+	width: 53.26%;
+	float: left;
+}
+.grid_02 .gridIn .social .blog .new {
+	font-size: 24px; 
+	padding-bottom: 10px;
+}
+.grid_02 .gridIn .social .blog .table {
+	border-collapse: collapse;
+	width: 100%;
+}
+.tdLeft {
+	width: 96px;
+	padding: 10px 20px 0 0;
+}
+.tdRight { 
+	padding-top: 10px; 
+	border-bottom: 1px dashed #323232;
+}
+.dateEven {
+	width: 100%;
+	height: 26px;
+	background: url("../img/bg_date.png") no-repeat;
+	float: left;
+	color: #fff;
+	font-size: 13px;
+	line-height: 24px;
+	text-align: center;
+}
+.even {
+	font-size: 14px;
+	text-decoration: none;
+}
+.grid_02 .gridIn .social .blog .showMore {
+	float: right;
+	text-decoration: none;
+	margin-top: 20px;
+}
+.grid_02 .gridIn .social .blog .showMore img { display: block; }
+.grid_02 .gridIn .social .facebook {
+	width: 43.27%;
+	float: left;
+	margin-left: 3.06%;
+}
